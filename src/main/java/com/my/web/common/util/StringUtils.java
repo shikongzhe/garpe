@@ -3,6 +3,7 @@ package com.my.web.common.util;
 public class StringUtils {
 	
 	
+	
 	public static Boolean isEmpty(String str){
 		if(str==null){
 			return true;
