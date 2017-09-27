@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 这里配置持久类实体 -->
+	<typeAliases>
+		<typeAlias alias="Person" type="com.my.web.dto.Person"/>
+	
+		<package name="org.snaker.engine.entity" />
+	</typeAliases>
+</configuration>
