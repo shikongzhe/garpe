@@ -86,7 +86,7 @@
 	
 	    <div class="row">
 	
-        <div class="col-xs-3" id="myScrollspy">
+        <div class="col-xs-3 " id="myScrollspy">
             
         </div>
         <div class="col-xs-12" >
