@@ -18,8 +18,7 @@
 <body>
 <div>
 
-	<c:if test="userName!=null" var="young" scope="session">
-
+	<c:if test="${true}" >
 		<nav class="navbar navbar-default navbar-static-top navbar-inverse">
 		  	<div class="  container">
 		  
@@ -29,7 +28,7 @@
 			  </div>
 		</nav>
 	</c:if>
-	<c:if test="userName==null" >
+	<c:if test="${true}" >
 	<nav class="navbar navbar-default navbar-static-top navbar-inverse">
 	  	<div class="  container">
 	  
